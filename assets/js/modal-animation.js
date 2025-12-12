@@ -2,7 +2,7 @@ $('.welcome__box').on('click', function (i) {
     const box = $(this)[0].getBoundingClientRect()
     setTimeout(() => {
         $(".modal").fadeIn(200);
-    }, 1100);
+    }, 1300);
     const modal = $('.modal__content');
     const clickedBox = $(this);
     clickedBox.addClass('active');
@@ -26,7 +26,7 @@ $('.welcome__box').on('click', function (i) {
             transform: 'translate(0, 0) scale(1) rotateX(0deg)',
             opacity: 1
         });
-    }, 1100);
+    }, 1300);
     setTimeout(() => {
         playModalSound();
     }, 2200);

@@ -90,7 +90,7 @@ $(document).ready(function () {
         fireBoxImage.addClass('active');
         setTimeout(() => {
             fireBoxImage.hide();
-        }, 1300);
+        }, 1400);
         const allBoxes = $('.welcome__box');
         allBoxes.not(clickedBox).addClass('hidden');
         $('.page__welcome').addClass('no-bg');
